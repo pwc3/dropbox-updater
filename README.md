@@ -28,4 +28,4 @@ useful when installing Forum builds. The `-d`/`--dry-run` option performs a
 
 The script requries the `beautifulsoup4` module. It is used to scrape the
 Dropbox download page to determine the version number. It can be installed via
-either `pip install beautifulsoup4` or `easy_install beautifulsoup4` .
+either `pip install beautifulsoup4` or `easy_install beautifulsoup4`.
