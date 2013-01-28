@@ -26,6 +26,6 @@ There are two command-line options (run with `--help` for details). The
 useful when installing Forum builds. The `-d`/`--dry-run` option performs a
 "dry run" which downloads the DMG but does not mount it or run the installer.
 
-The script requries the `beautifulsoup4` module. It is used to scrape the
+The script requires the `beautifulsoup4` module. It is used to scrape the
 Dropbox download page to determine the version number. It can be installed via
 either `pip install beautifulsoup4` or `easy_install beautifulsoup4`.
