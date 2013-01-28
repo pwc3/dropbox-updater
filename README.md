@@ -2,8 +2,8 @@ Dropbox Updater for Mac OS X
 ============================
 
 Since the Dropbox client software installed on my computer never seems to
-automatically update, I wrote this script to do it for me. It was developed and
-tested under Mac OS X Mountain Lion 10.8.2.
+automatically update, I wrote a Python script to do it for me. It was developed
+and tested under Mac OS X Mountain Lion 10.8.2.
 
 The script does the following:
 
@@ -11,9 +11,9 @@ The script does the following:
    number.
 2. Checks [http://www.dropbox.com/install](http://www.dropbox.com/install) for
    the "latest available version" (i.e., whichever version is listed on the
-   *Download* button, which may not, in fact, be the latest available version).
-3. If the installed version number is less than the "latest available version",
-   it attempts to download a DMG file to `~/Downloads`.
+   *Download* button, which may or may not be the latest available version).
+3. If the installed version number is less than the latest available version,
+   it attempts to download a DMG of the latest version to `~/Downloads`.
 4. If a DMG was successfully downloaded, the script then mounts the DMG and
    runs the installer.
 
